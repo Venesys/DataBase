@@ -1,0 +1,89 @@
+{
+  "usuario": {
+    "id_identificacion": {
+      "nombre": "",
+      "correo": "",
+      "contraseña": "",
+      "id_estado": ""
+    }
+  },
+  "auto": {
+    "id_placa": {
+      "modelo": "",
+      "marca": "",
+      "clave_permisos": "",
+      "direccion_gps": "",
+      "id_estado": ""
+    }
+  },
+  "usuario_auto": {
+    "id_placa": "id_identificacion"
+  },
+  "usuario_tipo": {
+    "id_usuario_tipo": {
+      "id_identificacion": "",
+      "id_tipo_usuario": ""
+    }
+  },
+  "alerta": {
+    "id_alerta": {
+      "hora": "",
+      "fecha": "",
+      "suceso": ""
+    }
+  },
+  "localizacion": {
+    "id": {
+      "latitud": "",
+      "longitud": ""
+    }
+  },
+  "alerta_localizacion": {
+    "id_alerta": "id_localizacion"
+  },
+  "archivos": {
+    "id_archivo": "nombre_archivo"
+  },
+  "archivo_auto": {
+    "id_archivo": "id_placa"
+  },
+  "archivo_alerta": {
+    "id_archivo": "id_alerta"
+  },
+  "estado": {
+    "id_editor": {
+      "descripcion": ""
+    }
+  },
+  "tipo_usuario": {
+    "id_tipo_usuario": {
+      "descricion": ""
+    }
+  },
+  "tipo_alerta": {
+    "id_tipo_:alerta": {
+      "descripcion": ""
+    }
+  },
+  "entidades_emergencia": {
+    "id_entidades": {
+      "descripcion": "",
+      "latitud": "",
+      "longitud": ""
+    }
+  },
+  "zonas_peligrosas": {
+    "id_zona": {
+      "latitud_inicial": "",
+      "longitud_inicial": "",
+      "latitud_final": "",
+      "longitud_final": "",
+      "nivel_peligro": ""
+    }
+  },
+  "nivel_peligro": {
+    "id_nivel": {
+      "descripcion": ""
+    }
+  }
+}
